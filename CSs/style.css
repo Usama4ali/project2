@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+body{
+    font-family: "Cairo", sans-serif;
+}
+
+/* *********** Start header *********** */
+.header{
+    background-color: rgb(47, 61, 219);
+    color: azure;
+    height: 50px;
+    line-height: 50px;
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+/* *********** End header *********** */
+
+/* *********** Start Navbar *********** */
+.carousel-indicators li{
+    height: 10px;
+    background-color: rgb(35, 12, 237);
+}
+/* *********** End Navbar *********** */
+
+/* *********** Start Slider *********** */
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(146, 137, 137, 0.371);
+    position: absolute;
+    z-index: 1;
+}
+/* *********** End Slider *********** */
+
+/* *********** Start Feutures *********** */
+.feutures{
+    margin-top: 55px;
+}
+
+.feutures i{
+    background-color: rgba(8, 33, 193, 0.688);
+    color: antiquewhite;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.feutures h3{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(81, 50, 4);
+}
+.feutures h2{
+    display: inline-block;
+    background-color: azure;
+}
+.feutures p{
+    display: inline-block;
+    background-color: bisque;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #4b4848;
+}
+/* *********** End Feutures *********** */
+
+/* *********** Start Our Team *********** */
+.our-team{
+    background-color: #eee;
+    padding: 70px;
+}
+.our-team h2{
+    display: inline-block;
+    background-color: azure;
+}
+/* *********** End Our Team *********** */
+
+/* *********** Start Statistic *********** */
+.statistic{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/حاسوب.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.statistic .overlay{
+    background-color: rgba(220, 19, 19, 0.01);
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+}
+.statistic .overlay h3{
+    color: aliceblue;
+}
+
+.statistic .overlay p{
+    display: flex;
+    color: antiquewhite;
+    font-size: 71px;
+}
+/* *********** End Statistic *********** */
+
+/* *********** Start Our Customer *********** */
+.our-customer{
+    background-color: #eee;
+    padding: 50px;
+}
+
+.our-customer h2{
+    display: inline-block;
+    background-color: azure;
+}
+/* *********** End Our Customer *********** */
+
+/* *********** Start Recint News *********** */
+.recent_news h2{
+    display: inline-block;
+    background-color: azure;
+}
+/* *********** End Recint News *********** */
+
+/* *********** Start Footer *********** */
+footer{
+    background-color: rgb(194, 174, 121);
+    padding: 30px;
+}
+footer ul li{
+    list-style: none;
+}
+footer p{
+    color: blue;
+    font-size: 18px;
+}
+footer i:hover{
+    color: red
+}
+footer .ff{
+    font-size: 20px;
+}
+/* *********** End Footer *********** */
+
+/* ********** Start Blogs ********** */
+.jumbotron{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ********** End Blogs ********** */
+
+
+.blog_details p{
+    line-height: 2;
+    padding: 10px;
+}
